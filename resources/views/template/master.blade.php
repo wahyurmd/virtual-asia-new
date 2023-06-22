@@ -4,6 +4,8 @@
     @include('template.head')
 </head>
 <body>
+    @include('sweetalert::alert')
+    
     @yield('content')
 
     @include('template.info')

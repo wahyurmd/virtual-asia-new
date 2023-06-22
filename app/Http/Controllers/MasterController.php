@@ -17,6 +17,6 @@ class MasterController extends Controller
         $subject = $request->subject;
         Mail::to('virtualasia.id@gmail.com')->send(new ContactMail($request, $subject));
 
-        return redirect()->back();
+        return redirect()->back()->with('success', 'Thank you for contacting, wait for a reply from us as soon as possible');
     }
 }
