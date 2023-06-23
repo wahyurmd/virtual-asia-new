@@ -22,8 +22,8 @@
                             VIRTUAL ASIA
                         </h4>
                         <h2>
-                            We help your business virtually <br>
-                            with our quality products
+                            Industry-leading provider of interactive <br>
+                            virtual tour services & 3D architecture render
                         </h2>
                         <div>
                             <a href="#about">About Us</a>
@@ -182,8 +182,10 @@
         </div>
         <div class="client_container layout_padding2-top">
             <p>
-                Hi! We are Virtual Asia, a virtual services company based in Bali, Indonesia. Our team are experienced and passionate people with more than 10 years experiences in photography and design industries. We combined our skills to help people and business owners in welcoming the future virtual era with our range of products and services. <br><br>
-                Come and join us!
+                Hi! We are Virtual Asia, a virtual services company based in Bali, Indonesia. Our team are experienced and passionate people with more than 10 years experiences in photography and design industries. We combined our skills to help people and business owners in welcoming the future virtual era with our range of products and services.
+            </p>
+            <p>
+                We offers unparalleled excellence and innovation in the field. With commitment to quality, cutting-edge technology, and exceptional customer experiences, Virtual Asia established itself as the go-to company for immersive and engaging virtual tours and 3D realistic render (GoRound)
             </p>
         </div>
     </div>
@@ -209,7 +211,7 @@
                         </div>
                         <div class="detail-box">
                             <p>
-                                You will get the best, high-quality images for your Interactive Virtual Tour that pleasing the eyes!
+                                We ensures every virtual tours is captured with meticulous attention to detail & crystal-clear resolution using high-quality cameras and advanced imaging techniques.
                             </p>
                         </div>
                     </div>
@@ -221,12 +223,12 @@
                         </div>
                         <div class="detail-box">
                             <p>
-                                Your virtual tour is connected to your Google Business (Stree View)
+                                Virtual Asia seamlessly integrates its innovative virtual tour product with Google Business and Google Maps, providing clients with an extensive reach and enhanced online visibility.
                             </p>
                         </div>
                     </div>
                     <div>
-                        <a href="" class="btn-1">
+                        <a href="#contact" class="btn-1">
                             Ask about Virtual Tour
                         </a>
                     </div>
@@ -245,7 +247,7 @@
                         </div>
                         <div class="detail-box">
                             <p>
-                                What you see is close to real-life! You will feel like you're being inside the real world with our stunning 3D Render quality
+                                This advanced offering pushes the boundaries of visual representation, with photorealistic visuals, lifelike interiors, customization and flexibility, also accurate proportions.
                             </p>
                         </div>
                     </div>
@@ -257,12 +259,12 @@
                         </div>
                         <div class="detail-box">
                             <p>
-                                Implement interactive features in it! Open the door, play the TV, change the material and colors, turn the lights on, and many more!
+                                Virtual Asia offers an exceptional interactive product that revolutionizes the way users engage with virtual content.
                             </p>
                         </div>
                     </div>
                     <div>
-                    <a href="" class="btn-2">
+                    <a href="#contact" class="btn-2">
                         Ask about GoRound
                     </a>
                     </div>
@@ -293,7 +295,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12 img-container">
                 <img src="{{ asset('assets/images/360-2.jpg') }}" alt="Viji Resort" class="img-fluid custom">
                 <div class="middle">
-                    <div class="text"><a href="https://vijeboutiqueresort.com/tour/" target="_blank" class="color-custom">Viji Resorte</a></div>
+                    <div class="text"><a href="https://vijeboutiqueresort.com/tour/" target="_blank" class="color-custom">Vije Boutique Resort</a></div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 img-container">

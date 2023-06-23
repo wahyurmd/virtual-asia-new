@@ -4,8 +4,8 @@
 <!-- Mobile Metas -->
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <!-- Site Metas -->
-<meta name="keywords" content="virtual asia, virtual, asia, 360, synodev" />
-<meta name="description" content="" />
+<meta name="keywords" content="virtual asia, virtual, digital, virtual reality, virtual tour, 360, google business, virtual indonesia, vr, metaverse, 3d, virtual world, synodev" />
+<meta name="description" content="Kills to help people and business owners in welcoming the future virtual era with our range of products such as Google integrated Virtual Tour, Virtual Coach, and more to come." />
 <meta name="author" content="Wahyu Ramadhani - Synodev" />
 
 <title>@yield('title')</title>
@@ -26,3 +26,19 @@
 
 <!-- Icon Bootstrap CDN -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+<!--  -->
+<link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/favicon_io/apple-touch-icon.png') }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/images/favicon_io/favicon-32x32.png') }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/images/favicon_io/favicon-16x16.png') }}">
+<link rel="manifest" href="{{ asset('assets/images/favicon_io/site.webmanifest') }}">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G4P3H19S5K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-G4P3H19S5K');
+</script>
