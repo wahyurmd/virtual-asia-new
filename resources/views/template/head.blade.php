@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <!-- Site Metas -->
 <meta name="keywords" content="virtual asia, virtual, digital, virtual reality, virtual tour, 360, google business, virtual indonesia, vr, metaverse, 3d, virtual world, synodev" />
-<meta name="description" content="Kills to help people and business owners in welcoming the future virtual era with our range of products such as Google integrated Virtual Tour, Virtual Coach, and more to come." />
+<meta name="description" content="Hi! We are Virtual Asia, a virtual services company based in Bali, Indonesia. Our team are experienced and passionate people with more than 10 years experiences in photography and design industries. We combined our skills to help people and business owners in welcoming the future virtual era with our range of products and services." />
 <meta name="author" content="Wahyu Ramadhani - Synodev" />
 
 <title>@yield('title')</title>
