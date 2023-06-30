@@ -39,12 +39,12 @@
                         <div class="carousel-inner text-center">
                             <div class="carousel-item active">
                                 <div class="img-box">
-                                    <img src="{{ asset('assets/images/header-1.png') }}" alt="header-1" />
+                                    <img src="{{ asset('assets/images/header-1.jpg') }}" alt="header-1" />
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <div class="img-box">
-                                    <img src="{{ asset('assets/images/slider-img.png') }}" alt="header-2" />
+                                    <img src="{{ asset('assets/images/header-2.jpg') }}" alt="header-2" />
                                 </div>
                             </div>
                         </div>
@@ -104,70 +104,10 @@
 
 <!-- feature section -->
 <section class="feature_section">
-    {{-- <div class="container">
-        <div class="heading_container">
-            <h2>
-                Why Virtual Asia?
-            </h2>
+    <div class="d-flex justify-content-center">
+        <div class="embed-responsive embed-responsive-16by9" style="max-width: 800px;">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID?autoplay=1&mute=1&controls=0&showinfo=0&loop=1&playlist=ETpg1uuFdbg"></iframe>
         </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="box">
-                    <div class="head-box-why">
-                        <div class="bounce">
-                            <i class="bi bi-arrow-down-short icon-custom"></i>
-                        </div>
-                        <h6 class="pt-2">
-                            Skills
-                        </h6>
-                    </div>
-                    <div class="detail-box-why">
-                        <p>
-                            We have what it takes to get the job done properly
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="box">
-                    <div class="head-box-why">
-                        <div class="bounce">
-                            <i class="bi bi-arrow-down-short icon-custom"></i>
-                        </div>
-                        <h6 class="pt-2">
-                            Value
-                        </h6>
-                    </div>
-                    <div class="detail-box-why">
-                        <p>
-                            We deliver more than you expectec
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="box">
-                    <div class="head-box-why">
-                        <div class="bounce">
-                            <i class="bi bi-arrow-down-short icon-custom"></i>
-                        </div>
-                        <h6 class="pt-2">
-                            Experiences
-                        </h6>
-                    </div>
-                    <div class="detail-box-why">
-                        <p>
-                            We've been arround for more than 10 years with passionate team
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> --}}
-    <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID?autoplay=1&mute=1&controls=0&showinfo=0&loop=1&playlist=ETpg1uuFdbg"></iframe>
     </div>
 </section>
 <!-- end feature section -->
@@ -206,7 +146,7 @@
                     <div class="box">
                         <div class="head-box">
                             <h6>
-                                High-Quliaty
+                                High-Quality
                             </h6>
                         </div>
                         <div class="detail-box">
@@ -235,7 +175,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="main-img-box">
-                        <img src="{{ asset('assets/images/download-img.png') }}" alt="" />
+                        <img src="{{ asset('assets/images/why-our-product.png') }}" alt="" />
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -288,33 +228,53 @@
         <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-12 img-container">
                 <img src="{{ asset('assets/images/360-1.jpg') }}" alt="Zen Ubud" class="img-fluid custom">
-                <div class="middle">
-                    <div class="text"><a href="https://virtual-tour.villazenubud.com/" target="_blank" class="color-custom">Zen Ubud</a></div>
-                </div>
+                <a href="https://virtual-tour.villazenubud.com/" target="_blank" class="color-custom">
+                    <div class="middle">
+                        <div class="text">
+                            Zen Ubud
+                        </div>
+                    </div>
+                </a>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 img-container">
                 <img src="{{ asset('assets/images/360-2.jpg') }}" alt="Viji Resort" class="img-fluid custom">
-                <div class="middle">
-                    <div class="text"><a href="https://vijeboutiqueresort.com/tour/" target="_blank" class="color-custom">Vije Boutique Resort</a></div>
-                </div>
+                <a href="https://vijeboutiqueresort.com/tour/" target="_blank" class="color-custom">
+                    <div class="middle">
+                        <div class="text">
+                            Vije Boutique Resort
+                        </div>
+                    </div>
+                </a>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 img-container">
                 <img src="{{ asset('assets/images/360-3.jpg') }}" alt="Yucca Villa" class="img-fluid custom">
-                <div class="middle">
-                    <div class="text"><a href="https://www.virtualasia.id/yuccavilla" target="_blank" class="color-custom">Yucca Villa</a></div>
-                </div>
+                <a href="https://yucca-villa.virtualasia.id/" target="_blank" class="color-custom">
+                    <div class="middle">
+                        <div class="text">
+                            Yucca Villa
+                        </div>
+                    </div>
+                </a>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 img-container">
                 <img src="{{ asset('assets/images/360-4.jpg') }}" alt="Horison Bhuvana Ciawi" class="img-fluid custom">
-                <div class="middle">
-                    <div class="text"><a href="https://www.virtualasia.id/horisonbhuvanaciawi/" target="_blank" class="color-custom">Horison Bhuvana Ciawi</a></div>
-                </div>
+                <a href="https://horisonbhuvanaciawi.virtualasia.id/" target="_blank" class="color-custom">
+                    <div class="middle">
+                        <div class="text">
+                            Horison Bhuvana Ciawi
+                        </div>
+                    </div>
+                </a>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 img-container">
                 <img src="{{ asset('assets/images/360-5.jpg') }}" alt="Jakarta International Stadium" class="img-fluid custom">
-                <div class="middle">
-                    <div class="text"><a href="https://www.virtualasia.id/jakartainternationalstadium/" target="_blank" class="color-custom">Jakarta International Stadium</a></div>
-                </div>
+                <a href="https://jakartainternationalstadium.virtualasia.id/" target="_blank" class="color-custom">
+                    <div class="middle">
+                        <div class="text">
+                            Jakarta International Stadium
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
@@ -361,7 +321,7 @@
             </div>
             <div class="col-md-6">
                 <div class="contact_img-box">
-                    <img src="{{ asset('assets/images/contact-img.png') }}" alt="">
+                    <img src="{{ asset('assets/images/contact.jpg') }}" alt="">
                 </div>
             </div>
         </div>

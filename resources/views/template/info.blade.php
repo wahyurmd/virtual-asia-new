@@ -11,7 +11,7 @@
                     About Us
                 </h5>
                 <p class="align-justify">
-                    dolor sit, amet consectetur adipisicing elit. Eveniet porro magni assumenda optio nulla mollitia ducimus corrupti animi dolore.
+                    Industry-leading provider of interactive virtual tour services & 3D architecture render
                 </p>
             </div>
             <div class="col-md-3">
@@ -19,7 +19,7 @@
                     Contact Us
                 </h5>
                 <p class="align-justify">
-                    dolor sit amet, consectetur magna aliqua. quisdotempor incididunt ut e
+                    For further information about services & enquiries
                 </p>
             </div>
             <div class="col-md-3">
@@ -28,7 +28,7 @@
                     Newsletter
                     </h5>
                     <div class="form_container">
-                        <form action="">
+                        <form action="javascript:void(0)">
                             <input type="email" placeholder="Enter your email">
                             <button type="submit">
                             Subscribe

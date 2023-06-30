@@ -745,16 +745,16 @@ a:focus {
         opacity: 1;
     }
 
+    .color-custom {
+        text-decoration: none;
+        color: white;
+    }
+
     .text {
         background-color: $colorPrimary;
         font-size: 16px;
         padding: 16px 32px;
         @include secondary-font();
-
-        .color-custom {
-            text-decoration: none;
-            color: white;
-        }
     }
 }
 // end portfolio section
@@ -929,3 +929,12 @@ a:focus {
 }
 
 // end footer section
+
+// Back to top
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    border-radius: 100%;
+}
