@@ -276,6 +276,16 @@
                     </div>
                 </a>
             </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 img-container">
+                <img src="{{ asset('assets/images/360-6.jpg') }}" alt="Setiabudi Sky Garden" class="img-fluid custom">
+                <a href="https://setiabudiskygarden.virtualasia.id/" target="_blank" class="color-custom">
+                    <div class="middle">
+                        <div class="text">
+                            Setiabudi Sky Garden
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 </section>
