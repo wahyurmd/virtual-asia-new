@@ -39,12 +39,12 @@
                         <div class="carousel-inner text-center">
                             <div class="carousel-item active">
                                 <div class="img-box">
-                                    <img src="{{ asset('assets/images/header-1.jpg') }}" alt="header-1" />
+                                    <img src="{{ asset('assets/images/header-1.png') }}" alt="header-1" />
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <div class="img-box">
-                                    <img src="{{ asset('assets/images/header-2.jpg') }}" alt="header-2" />
+                                    <img src="{{ asset('assets/images/header-2.png') }}" alt="header-2" />
                                 </div>
                             </div>
                         </div>
