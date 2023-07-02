@@ -102,15 +102,91 @@
 </section>
 <!-- end client section -->
 
-<!-- feature section -->
+<!-- Video section -->
 <section class="feature_section">
     <div class="d-flex justify-content-center">
         <div class="embed-responsive embed-responsive-16by9" style="max-width: 800px;">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID?autoplay=1&mute=1&controls=0&showinfo=0&loop=1&playlist=ETpg1uuFdbg"></iframe>
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID?autoplay=1&mute=1&controls=0&showinfo=0&loop=1&playlist=Kv1NwuxhRYY"></iframe>
         </div>
     </div>
 </section>
-<!-- end feature section -->
+<!-- end Video section -->
+
+<!-- portfolio section -->
+<section class="portfolio_section layout_padding" id="portfolio">
+    <div class="container">
+        <div class="heading_container">
+            <h2>
+                Our Portfolio
+            </h2>
+        </div>
+    </div>
+    <div class="container layout_padding2-top ">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 img-container">
+                <img src="{{ asset('assets/images/360-1.jpg') }}" alt="Zen Ubud" class="img-fluid custom">
+                <a href="https://virtual-tour.villazenubud.com/" target="_blank" class="color-custom">
+                    <div class="middle">
+                        <div class="text">
+                            Zen Ubud
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 img-container">
+                <img src="{{ asset('assets/images/360-2.jpg') }}" alt="Viji Resort" class="img-fluid custom">
+                <a href="https://vijeboutiqueresort.com/tour/" target="_blank" class="color-custom">
+                    <div class="middle">
+                        <div class="text">
+                            Vije Boutique Resort
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 img-container">
+                <img src="{{ asset('assets/images/360-3.jpg') }}" alt="Yucca Villa" class="img-fluid custom">
+                <a href="https://yucca-villa.virtualasia.id/" target="_blank" class="color-custom">
+                    <div class="middle">
+                        <div class="text">
+                            Yucca Villa
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 img-container">
+                <img src="{{ asset('assets/images/360-4.jpg') }}" alt="Horison Bhuvana Ciawi" class="img-fluid custom">
+                <a href="https://horisonbhuvanaciawi.virtualasia.id/" target="_blank" class="color-custom">
+                    <div class="middle">
+                        <div class="text">
+                            Horison Bhuvana Ciawi
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 img-container">
+                <img src="{{ asset('assets/images/360-5.jpg') }}" alt="Jakarta International Stadium" class="img-fluid custom">
+                <a href="https://jakartainternationalstadium.virtualasia.id/" target="_blank" class="color-custom">
+                    <div class="middle">
+                        <div class="text">
+                            Jakarta International Stadium
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 img-container">
+                <img src="{{ asset('assets/images/360-6.jpg') }}" alt="Setiabudi Sky Garden" class="img-fluid custom">
+                <a href="https://setiabudiskygarden.virtualasia.id/" target="_blank" class="color-custom">
+                    <div class="middle">
+                        <div class="text">
+                            Setiabudi Sky Garden
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end portfolio section -->
 
 <!-- about section -->
 <section class="client_section layout_padding" id="about">
@@ -215,91 +291,15 @@
 </section>
 <!-- end download section -->
 
-<!-- portfolio section -->
-<section class="portfolio_section layout_padding" id="portfolio">
-    <div class="container">
-        <div class="heading_container">
-            <h2>
-                Our Portfolio
-            </h2>
-        </div>
-    </div>
-    <div class="container layout_padding2-top ">
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12 img-container">
-                <img src="{{ asset('assets/images/360-1.jpg') }}" alt="Zen Ubud" class="img-fluid custom">
-                <a href="https://virtual-tour.villazenubud.com/" target="_blank" class="color-custom">
-                    <div class="middle">
-                        <div class="text">
-                            Zen Ubud
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 img-container">
-                <img src="{{ asset('assets/images/360-2.jpg') }}" alt="Viji Resort" class="img-fluid custom">
-                <a href="https://vijeboutiqueresort.com/tour/" target="_blank" class="color-custom">
-                    <div class="middle">
-                        <div class="text">
-                            Vije Boutique Resort
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 img-container">
-                <img src="{{ asset('assets/images/360-3.jpg') }}" alt="Yucca Villa" class="img-fluid custom">
-                <a href="https://yucca-villa.virtualasia.id/" target="_blank" class="color-custom">
-                    <div class="middle">
-                        <div class="text">
-                            Yucca Villa
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 img-container">
-                <img src="{{ asset('assets/images/360-4.jpg') }}" alt="Horison Bhuvana Ciawi" class="img-fluid custom">
-                <a href="https://horisonbhuvanaciawi.virtualasia.id/" target="_blank" class="color-custom">
-                    <div class="middle">
-                        <div class="text">
-                            Horison Bhuvana Ciawi
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 img-container">
-                <img src="{{ asset('assets/images/360-5.jpg') }}" alt="Jakarta International Stadium" class="img-fluid custom">
-                <a href="https://jakartainternationalstadium.virtualasia.id/" target="_blank" class="color-custom">
-                    <div class="middle">
-                        <div class="text">
-                            Jakarta International Stadium
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 img-container">
-                <img src="{{ asset('assets/images/360-6.jpg') }}" alt="Setiabudi Sky Garden" class="img-fluid custom">
-                <a href="https://setiabudiskygarden.virtualasia.id/" target="_blank" class="color-custom">
-                    <div class="middle">
-                        <div class="text">
-                            Setiabudi Sky Garden
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end portfolio section -->
-
 <!-- contact section -->
 <section class="contact_section layout_padding" id="contact">
     <div class="container">
-        <div class="d-flex ">
+        <div class="heading_container text-center">
             <h2>
                 Contact Us
             </h2>
         </div>
-        <div class="row">
+        <div class="row d-flex justify-content-center">
             <div class="col-md-6">
                 <form action="{{ route('contact') }}" method="POST">
                     @csrf
@@ -320,7 +320,7 @@
                             <div class="mt-5">
                                 <input type="text" name="message" placeholder="Message">
                             </div>
-                            <div class="mt-5">
+                            <div class="mt-5 text-center">
                                 <button type="submit">
                                     send
                                 </button>
@@ -329,11 +329,11 @@
                     </div>
                 </form>
             </div>
-            <div class="col-md-6">
+            {{-- <div class="col-md-6">
                 <div class="contact_img-box">
                     <img src="{{ asset('assets/images/contact.jpg') }}" alt="">
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 </section>

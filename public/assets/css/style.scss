@@ -328,7 +328,7 @@ a:focus {
 
         .col-md-7,
         .col-md-5 {
-        position: unset;
+            position: unset;
         }
     }
 
@@ -710,11 +710,11 @@ a:focus {
 
 // portfolio section
 .portfolio_section {
-    background-color: #012340;
+    background-color: $white;
 
     .heading_container {
         h2 {
-            color: $white;
+            color: $black;
         }
     }
 
@@ -762,46 +762,42 @@ a:focus {
 /* contact section */
 
 .contact_section {
-  background-color: #f2f7fd;
+    background-color: #f2f7fd;
 
-  h2 {
-    font-size: 26px;
-    color: #010103;
-    font-weight: 600;
-    font-family: 'Raleway', sans-serif;
-    margin-bottom: 35px;
-  }
+    h2 {
+        margin-bottom: 35px;
+    }
 
-  .row {
-    align-items: center;
-  }
+    .row {
+        align-items: center;
+    }
 }
 
 .contact_section input {
-  border: none;
-  outline: none;
-  border-bottom: 1px solid #000;
-  width: 90%;
-  margin: 15px 0;
-  background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    margin: 15px 0;
+    background-color: transparent;
 
-  &::placeholder {
-    color: #595959;
-    font-size: 14px;
-  }
+    &::placeholder {
+        color: #595959;
+        font-size: 14px;
+    }
 }
 
 
 
 .contact_form-container button {
-  border: none;
-  background-color: $btnColor;
-  color: #fff;
-  font-size: 15px;
-  padding: 15px 45px;
-  border-radius: 30px;
-  text-transform: uppercase;
-  font-weight: bold;
+    border: none;
+    background-color: $btnColor;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 35px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .contact_img-box {
@@ -896,13 +892,18 @@ a:focus {
 
 .info_section .social-box {
     margin: 0 auto;
-    width: 400px;
-    display: flex;
-    justify-content: center;
+
+    a {
+        text-decoration: none;
+        pointer-events: none;
+        cursor: default;
+        color: $white;
+        padding-top: 2px;
+    }
 
     img {
         width: 35px;
-        margin-right: 5px;
+        // margin-right: 25px;
     }
 
 }

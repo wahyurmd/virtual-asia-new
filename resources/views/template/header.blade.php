@@ -17,9 +17,9 @@
                 <div class="overlay-content">
                     <a onclick="topFunction()">HOME</a>
                     <a href="#client">OUR CLIENT</a>
+                    <a href="#portfolio">PORTFOLIO</a>
                     <a href="#about">ABOUT</a>
                     <a href="#values">OUR VALUES</a>
-                    <a href="#portfolio">PORTFOLIO</a>
                     <a href="#contact">CONTACT US</a>
                 </div>
                 </div>

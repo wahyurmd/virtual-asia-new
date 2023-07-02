@@ -615,10 +615,10 @@ a:focus {
 }
 
 .portfolio_section {
-  background-color: #012340;
+  background-color: #fefdfc;
 }
 .portfolio_section .heading_container h2 {
-  color: #fefdfc;
+  color: #050505;
 }
 .portfolio_section .custom {
   padding-bottom: 30px;
@@ -659,10 +659,6 @@ a:focus {
   background-color: #f2f7fd;
 }
 .contact_section h2 {
-  font-size: 26px;
-  color: #010103;
-  font-weight: 600;
-  font-family: "Raleway", sans-serif;
   margin-bottom: 35px;
 }
 .contact_section .row {
@@ -673,7 +669,7 @@ a:focus {
   border: none;
   outline: none;
   border-bottom: 1px solid #000;
-  width: 90%;
+  width: 100%;
   margin: 15px 0;
   background-color: transparent;
 }
@@ -691,7 +687,7 @@ a:focus {
   background-color: #06a594;
   color: #fff;
   font-size: 15px;
-  padding: 15px 45px;
+  padding: 10px 35px;
   border-radius: 30px;
   text-transform: uppercase;
   font-weight: bold;
@@ -775,13 +771,16 @@ a:focus {
 
 .info_section .social-box {
   margin: 0 auto;
-  width: 400px;
-  display: flex;
-  justify-content: center;
+}
+.info_section .social-box a {
+  text-decoration: none;
+  pointer-events: none;
+  cursor: default;
+  color: #fefdfc;
+  padding-top: 2px;
 }
 .info_section .social-box img {
   width: 35px;
-  margin-right: 5px;
 }
 
 /* end info section */

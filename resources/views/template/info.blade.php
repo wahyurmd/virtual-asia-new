@@ -41,19 +41,16 @@
     </div>
     <div class="container">
         <div class="social_container">
-            <div class="social-box">
-                {{-- <a href="">
-                    <img src="{{ asset('assets/images/fb.png') }}" alt="">
-                </a>
-                <a href="">
-                    <img src="{{ asset('assets/images/twitter.png') }}" alt="">
-                </a>
-                <a href="">
-                    <img src="{{ asset('assets/images/linkedin.png') }}" alt="">
-                </a> --}}
+            <div class="social-box text-center">
                 <a href="https://www.instagram.com/virtualasia.id/" target="_blank">
                     <img src="{{ asset('assets/images/instagram.png') }}" alt="Instagram Virtual Asia">
                 </a>
+                <div class="mt-3">
+                    <a href="javascript:void(0)" class="link-body-emphasis">Phone: 0817-0622-022</a>
+                </div>
+                <div class="mt-1">
+                    <a href="javascript:void(0)" class="link-body-emphasis">Email: virtualasia.id@gmail.com</a>
+                </div>
             </div>
         </div>
     </div>
