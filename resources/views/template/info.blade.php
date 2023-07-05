@@ -49,7 +49,7 @@
                     <a href="javascript:void(0)" class="link-body-emphasis">Phone: 0817-0622-022</a>
                 </div>
                 <div class="mt-1">
-                    <a href="javascript:void(0)" class="link-body-emphasis">Email: virtualasia.id@gmail.com</a>
+                    <a href="javascript:void(0)" class="link-body-emphasis">Email: info@virtualasia.id</a>
                 </div>
             </div>
         </div>

@@ -106,7 +106,8 @@
 <section class="feature_section">
     <div class="d-flex justify-content-center">
         <div class="embed-responsive embed-responsive-16by9" style="max-width: 800px;">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID?autoplay=1&mute=1&controls=0&showinfo=0&loop=1&playlist=Kv1NwuxhRYY"></iframe>
+            {{-- <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID?autoplay=1&mute=1&controls=0&showinfo=0&loop=1&playlist=Kv1NwuxhRYY"></iframe> --}}
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID?autoplay=1&mute=1&showinfo=0&loop=1&playlist=Kv1NwuxhRYY"></iframe>
         </div>
     </div>
 </section>
